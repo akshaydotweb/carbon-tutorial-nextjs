@@ -4,10 +4,9 @@
   "private": true,
   "repository": "git@github.com:carbon-design-system/carbon-tutorial-nextjs.git",
   "bugs": "https://github.com/carbon-design-system/carbon-tutorial-nextjs/issues",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
-    "build": "babel src -d lib",
-    "prebuild": "jest",
+    "build": "next build",
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
@@ -23,7 +22,8 @@
     "eslint-config-next": "13.4.9",
     "next": "13.4.9",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.79.4"
   },
   "devDependencies": {
     "@commitlint/cli": "7.5.2",
